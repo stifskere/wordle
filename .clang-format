@@ -1,0 +1,30 @@
+---
+BasedOnStyle: Mozilla
+LineEnding: DeriveLF
+
+IndentWidth: 4
+ContinuationIndentWidth: 4
+IndentCaseLabels: false
+
+AlignAfterOpenBracket: AlwaysBreak
+AlignConsecutiveMacros: Consecutive
+AlignTrailingComments: Always
+PointerAlignment: Right
+
+AlwaysBreakAfterReturnType: None
+AlwaysBreakAfterDefinitionReturnType: None
+
+AllowShortFunctionsOnASingleLine: Empty
+AllowShortIfStatementsOnASingleLine: Never
+
+SortIncludes: false
+
+BreakBeforeBraces: Custom
+BraceWrapping:
+    AfterCaseLabel: false
+    AfterControlStatement: Never
+    AfterEnum: false
+    AfterFunction: false
+    AfterStruct: false
+    AfterUnion: false
+---
