@@ -8,6 +8,7 @@ Dependencies:
 Example: generating a makefile and compiling with it
 
 ```sh
-premake5 gmake2
+mkdir build && cd build
+cmake ..
 make -j`nproc`
 ```
